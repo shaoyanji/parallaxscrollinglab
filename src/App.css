@@ -1,0 +1,249 @@
+/* App.css */
+
+/* Apply a CSS reset to remove default margin and padding */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; /* Use border-box for better box sizing */
+}
+
+/* Apply a global font and box-sizing */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0; /* Update background color */
+}
+
+/* Apply styles to the root container */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+}
+
+/* Apply styles to the header */
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Apply styles to the main content */
+.App-main {
+  flex-grow: 1; /* Allow the main content to grow to fill available space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Apply styles to links */
+a {
+  color: #61dafb;
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+a:hover {
+  color: #0d8eff; /* Update link color on hover */
+}
+
+/* Apply styles to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Apply styles to paragraphs */
+p {
+  margin-bottom: 20px;
+}
+
+/* Apply styles to buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d8eff;
+}
+/* Add styles for feature section */
+.feature-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.feature-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.feature-item i {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+/* Add styles for about section */
+.about-section {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Add styles for contact section */
+.contact-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container input,
+.contact-container textarea,
+.contact-container button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-container button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #0056b3;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffd700; /* Change to desired hover color */
+}

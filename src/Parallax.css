@@ -1,0 +1,71 @@
+/* Add styles for feature section */
+.feature-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.feature-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.feature-item i {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+/* Add styles for about section */
+.about-section {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Add styles for contact section */
+.contact-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container input,
+.contact-container textarea,
+.contact-container button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-container button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #0056b3;
+}
